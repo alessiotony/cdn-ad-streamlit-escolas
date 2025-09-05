@@ -6,8 +6,16 @@ Inclui múltiplas páginas, filtros, KPIs, gráficos e mapa.
 ## Como rodar
 
 ```bash
+# usuario MacOS
 python3 -m venv .venv && source .venv/bin/activate   # (Windows: .venv\Scripts\activate)
+
+# usuario Windows
+python -m venv .venv && source .venv\Scripts\activate
+
 pip install -r requirements.txt
+
+pip freeze
+
 streamlit run app.py
 ```
 
