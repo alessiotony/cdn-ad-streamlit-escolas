@@ -1,0 +1,13 @@
+[theme]
+base="light"
+primaryColor="#006CFF"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F6F8FB"
+textColor="#0F172A"
+font="sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+enableXsrfProtection = true
